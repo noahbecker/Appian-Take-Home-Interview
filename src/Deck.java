@@ -2,6 +2,7 @@ import java.util.Random;
 
 public class Deck {
 
+    //The deck is represented as an array of Cards
     private final Card[] deck;
     //keeps track of the card to be dealt next
     private int dealIndex;
